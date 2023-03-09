@@ -1,0 +1,5 @@
+package com.proStact.vehicleManagement.serviceImpl;
+
+public class TripServiceImpl {
+
+}

@@ -1,0 +1,5 @@
+package com.proStact.vehicleManagement.security;
+
+public class CustomUserDeatilsService {
+
+}

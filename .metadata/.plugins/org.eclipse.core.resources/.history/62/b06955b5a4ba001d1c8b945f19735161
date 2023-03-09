@@ -1,0 +1,5 @@
+package com.proStack.vehicleManagement.security;
+
+public class JwtTokenProvider {
+
+}

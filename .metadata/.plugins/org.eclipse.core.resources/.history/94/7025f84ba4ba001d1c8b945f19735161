@@ -1,0 +1,13 @@
+package com.proStact.vehicleManagement.service;
+
+import java.util.List;
+
+import com.proStack.vehicleManagement.dto.Vehicle;
+public interface VehicleService {
+
+	Boolean existsByVehicleNo(String vehicleNo);
+
+    Vehicle saveVehicle(Vehicle vehicle);
+
+    List<Vehicle> getVehicles();
+}

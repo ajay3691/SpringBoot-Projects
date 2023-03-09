@@ -1,0 +1,8 @@
+package com.task.service;
+
+import com.task.payload.UserDto;
+
+public interface UserService {
+	public void createUser(UserDto userDto);
+
+}

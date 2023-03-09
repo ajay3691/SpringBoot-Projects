@@ -1,0 +1,5 @@
+package com.proStack.vehicleManagement.controller;
+
+public class AuthController {
+
+}

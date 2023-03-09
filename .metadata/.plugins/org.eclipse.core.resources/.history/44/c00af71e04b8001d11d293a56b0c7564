@@ -1,0 +1,29 @@
+package com.task.serviceImpl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.task.entity.Users;
+import com.task.payload.UserDto;
+import com.task.repository.UserRepository;
+import com.task.service.UserService;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Autowired
+	public UserRepository userRepository;
+	@Override
+	public UserDto createUser(UserDto userDto) {
+		// userDto is not Entity of users
+		userRepository.save(userDto)
+		return null;
+	}
+	
+	private Users usersDtoToEntity(UserDto userDto) {
+		Users users = new Users();
+		users.
+	}
+
+  
+}

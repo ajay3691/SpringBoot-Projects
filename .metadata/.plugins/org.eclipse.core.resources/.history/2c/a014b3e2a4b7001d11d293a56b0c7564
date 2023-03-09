@@ -1,0 +1,9 @@
+server.port = 8081
+spring.datasource.driver-class-name = com.mysql.cj.jdbc.Driver
+spring.datasource.url = jdbc:Mysql://localhost:3306/taskproject
+spring.datasource.username = root
+spring.datasource.password = 6301827563
+
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+

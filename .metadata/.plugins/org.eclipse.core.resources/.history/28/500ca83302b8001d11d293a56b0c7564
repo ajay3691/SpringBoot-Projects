@@ -1,0 +1,20 @@
+package com.task.serviceImpl;
+
+import org.springframework.stereotype.Service;
+
+import com.task.payload.UserDto;
+import com.task.service.UserService;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public UserDto createUser(UserDto userDto) {
+		// userDto is not Entity of Users
+		return null;
+	}
+
+	
+  
+	
+}

@@ -1,0 +1,5 @@
+package com.proStact.vehicleManagement.service;
+
+public interface BookingService {
+
+}

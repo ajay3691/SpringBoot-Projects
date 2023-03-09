@@ -1,0 +1,16 @@
+package com.proStack.vehicleManagement.service;
+
+import org.springframework.security.core.userdetails.User;
+
+import antlr.collections.List;
+
+public interface UserService {
+
+	int existsByMobileNo = 0;
+
+	Boolean existsByMobileNo(String email);
+
+    User saveUser(User user);
+
+    List<User> getDrivers();
+}

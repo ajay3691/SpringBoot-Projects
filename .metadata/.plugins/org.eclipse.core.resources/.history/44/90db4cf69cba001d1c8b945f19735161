@@ -1,0 +1,15 @@
+package com.proStact.vehicleManagement.service;
+
+import java.util.List;
+
+import com.proStact.vehicleManagement.dto.Trip;
+
+public interface TripService {
+
+	Trip startTrip(Trip trip);
+
+    Boolean existsTrip(Long id);
+    Trip endTrip(Trip trip);
+
+    List<Trip> getTrips();
+}

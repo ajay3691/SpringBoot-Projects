@@ -1,0 +1,21 @@
+package com.task.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/api")
+public class TaskController {
+	 
+	//save the task
+	
+	//get all task
+	
+	//get indv task
+	
+	//delete indiv task
+	
+	
+
+}
+

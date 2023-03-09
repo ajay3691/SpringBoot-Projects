@@ -1,0 +1,20 @@
+package com.task.serviceImpl;
+
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.task.entity.Users;
+import com.task.service.UserService;
+
+@Service
+public class UserServiceImpl implements UserService {
+	
+	// POST  user data in DB
+	@PostMapping("/register")
+	public void createUser(@RequestBody Users users) {
+		userRepo.save(users)
+	}
+	
+
+}

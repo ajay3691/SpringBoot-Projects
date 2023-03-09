@@ -1,0 +1,21 @@
+package com.task.payload;
+
+public class LoginDto {
+	private String email;
+	private String pasword;
+	
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getPasword() {
+		return pasword;
+	}
+	public void setPassword(String password) {
+		this.pasword = pasword;
+	}
+	
+
+}

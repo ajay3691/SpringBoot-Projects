@@ -1,0 +1,5 @@
+package com.proStact.vehicleManagement.config;
+
+public class SecurityConfig {
+
+}

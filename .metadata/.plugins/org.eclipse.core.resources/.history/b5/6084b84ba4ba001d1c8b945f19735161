@@ -1,0 +1,33 @@
+package com.proStact.vehicleManagement.serviceImpl;
+
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.proStack.vehicleManagement.dao.UserDao;
+import com.proStack.vehicleManagement.dto.User;
+import com.proStact.vehicleManagement.service.UserService;
+
+@Service
+public class UserServiceImpl  implements UserService {
+
+	@Autowired
+    UserDao userDao;
+
+    @Override
+    public Boolean existsByMobileNo(String mobileNo) {
+        return userDao.existsByMobileNo(mobileNo);
+    }
+
+    @Override
+    public User saveUser(User user) {
+        return userDao.save(user);
+    }
+
+    @Override
+    public List<User> getDrivers() {
+        return userDao.getAllDrivers();
+    }
+}

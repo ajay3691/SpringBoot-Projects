@@ -1,0 +1,5 @@
+package com.proStact.vehicleManagement.dto;
+
+public class User {
+
+}

@@ -1,0 +1,5 @@
+package com.proStack.vehicleManagement.service;
+
+public interface Boolean {
+
+}

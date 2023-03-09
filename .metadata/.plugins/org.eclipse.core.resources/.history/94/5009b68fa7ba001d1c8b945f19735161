@@ -1,0 +1,5 @@
+package com.proStack.vehicleManagement.config;
+
+public class WebMvcConfig {
+
+}

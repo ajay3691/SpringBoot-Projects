@@ -1,0 +1,5 @@
+package com.proStact.vehicleManagement.dao;
+
+public interface VehicleDao {
+
+}
